@@ -61,7 +61,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "gaushala-app:build"
+            "browserTarget": "gaushala-app:build",
+            "port": 5000
           },
           "configurations": {
             "production": {
